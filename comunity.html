@@ -31,6 +31,42 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+
+    <style>
+        .filterDiv {
+            float: left;
+            width: auto;
+            display: none;
+        }
+
+        .show {
+            display: block;
+        }
+
+        .container {
+            margin-top: 20px;
+            overflow: hidden;
+        }
+
+        /* Style the buttons */
+        .btn {
+            border: none;
+            outline: none;
+            padding: 12px 16px;
+            background-color: #f1f1f1;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #ddd;
+        }
+
+        .btn.active {
+            background-color: #666;
+            color: white;
+        }
+    </style>
 </head>
 
 <body>
@@ -69,13 +105,13 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
                     <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="profil.html" class="nav-item nav-link active">Profil</a>
+                    <a href="profil.html" class="nav-item nav-link ">Profil</a>
                     <a href="causes.html" class="nav-item nav-link">Fitur</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu m-0">
                             <a href="service.html" class="dropdown-item">Service</a>
-                            <a href="team.html" class="dropdown-item">Our Team</a>
+                            <a href="team.html" class="dropdown-item active">Our Team</a>
                             <a href="testimonial.html" class="dropdown-item">Visi Misi</a>
                             <a href="404.html" class="dropdown-item">404 Page</a>
                         </div>
@@ -91,48 +127,42 @@
 
 
     <!-- Page Header Start -->
-    <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid page-header-b mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center">
-            <h1 class="display-4 text-white animated slideInDown mb-4">Profil</h1>
-            <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-primary active" aria-current="page">Profil</li>
-                </ol>
-            </nav>
         </div>
     </div>
     <!-- Page Header End -->
 
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12">
+                <h2 class="align-center">PAWAI KARNAVAL 1000 DOHONG DI KOTA CANTIK PALANGKA RAYA</h2>
+                <h4 class="align-center mbr-light mbr-fonts-style"><em>By John Smith
+                        posted July 30, 2022</em></h4>
+                <img class="w-100" src="/img/202208160641smkn2palangkaraya.jpg" alt="">
+                <p>
+                    SMAN 2 Palangka Raya ikut serta memeriahkan 1000 Dohong dalam pawai karnaval pada pembukaan Pumpung
+                    Hai 2022 dan Festival Adat Budaya Dayak. SMAN 2 Palangka Raya mengerimkan 60 peserta dan 10 guru
+                    pendamping yang merupakan siswa siswa dan guru SMAN 2 Palangka Raya.
 
-    <!-- Profil Start -->
-    <div class="container d-flex align-items-center justify-content-center">
-        <div class="col-md-8 center">
-            <h3>
-                Muhammad Mirazulhaidi M.Pd
-            </h3>
-            <h4>
-                Kepala Sekolah
-            </h4>
+                    Siswa siswi dan guru pendamping SMAN 2 Palangka Raya ada yang menggunakan Pakaian adat lengkat dan
+                    baju batik benang bintik lengkap dengan laung dan sumping yang merupakan pakaian khas Kalimantan
+                    Tengah.
 
-            <p>Assalamu’alaikum wr. wb., salam sejahtera...
-
-                Puji dan syukur kami panjatkan kehadirat Tuhan Yang Maha Esa, sehingga pada kesempatan ini SMAN 2
-                Palangka
-                Raya dapat kembali menghadirkan Web sekolah. Dalam rangka terbitnya kembali Website sekolah SMAN 2
-                Palangka
-                Raya, maka telah dilakukan up date, baik dari sisi pengelolaan maupun isinya.
-            </p>
-            <div class="col-lg-3 col-md-6">
-                <h5 class="text-dark mb-4">Alamat</h5>
-                <p><i class="fa fa-map-marker-alt me-3"></i>Jl K.S.Tubun No 02 Palangkaraya</p>
-                <p><i class="fa fa-phone-alt me-3"></i>0536-4215024</p>
-                <p><i class="fa fa-envelope me-3"></i>info@smadapalangkaraya.sch.id</p>
+                    Kegiatan ini sangat di dukung Kepala SMAN 2 Palangka Raya sebagai bentuk inplementasi penanaman
+                    karakter profil pelajar Pancasila di peserta didik SMAN 2.
+                </p>
+                <p>Nullam at tellus a ante dictum sagittis. Aenean malesuada, turpis non aliquam blandit, nisl
+                    dui pellentesque tortor, malesuada consectetur sem lectus sed lacus. Nulla nec turpis mattis dui
+                    ornare blandit. Ut leo nisl, tempus ut bibendum in, iaculis quis felis. Aliquam et lorem vel dolor
+                    tincidunt vulputate vel sed lacus. Morbi tristique elementum vehicula. Duis sem tellus, porta in leo
+                    sed, porttitor aliquet magna. Ut cursus erat sed pulvinar semper. Donec gravida porttitor arcu, sed
+                    vulputate libero. Morbi non justo ac tellus tempus ornare. Nam tortor augue, commodo eget lobortis
+                    non, consectetur eget eros. In hac habitasse platea dictumst. Nam congue odio neque, in tempus
+                    sapien faucibus non.</p>
             </div>
         </div>
     </div>
-
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white-50 footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">

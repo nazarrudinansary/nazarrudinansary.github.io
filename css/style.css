@@ -271,13 +271,13 @@
 
 .team-item .team-text {
     position: relative;
-    height: 100px;
+    height: 115px;
     transition: .5s;
 }
 
 .team-item:hover .team-text {
     margin-top: -60px;
-    height: 160px;
+    height: auto;
 }
 
 .team-item .team-text .team-social {
